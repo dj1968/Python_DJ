@@ -1,10 +1,18 @@
 # -*- coding: utf-8 -*-
 """
+Created on Tue Feb  8 07:56:03 2022
+
+@author: jdemt
+"""
+
+# -*- coding: utf-8 -*-
+"""
 Created on Mon Jan 10 06:54:28 2022
 
 @author: jdemt
 
 https://www.pygame.org/news
+https://www.youtube.com/watch?v=SfPWCKTHzE4
 
 """
 

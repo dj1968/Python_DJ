@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jan  4 12:19:52 2022
+Created on Tue Feb  8 07:56:41 2022
 
 @author: jdemt
 """
@@ -21,4 +21,3 @@ for part in vollbier:
     satz.append(part[r])
     
 print(" ".join(satz))
-
