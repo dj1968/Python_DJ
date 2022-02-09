@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jan  4 11:03:13 2022
+Created on Wed Feb  9 09:41:29 2022
 
 @author: jdemt
 """
@@ -10,4 +10,3 @@ flummi = planets.pop()
 
 print(planets)
 print(flummi)
-

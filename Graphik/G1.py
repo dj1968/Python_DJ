@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jan  7 10:00:12 2022
+Created on Wed Feb  9 09:43:44 2022
 
 @author: jdemt
 """
@@ -14,4 +14,3 @@ xy = [4,7,4, 13]
 
 plt.plot(xs, xy)
 plt.show()
-

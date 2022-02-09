@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Feb  9 07:27:33 2022
+Created on Wed Feb  9 09:04:22 2022
 
 @author: jdemt
 """
+
 
 class Lebewesen:
     augen = 3
@@ -16,6 +17,7 @@ class Lebewesen:
 class Hund(Lebewesen):
     beine = 4
     name = "Rudi"
+    augen = 2
     
     def __init__(self):
         Lebewesen.__init__(self)
@@ -25,16 +27,15 @@ class Hund(Lebewesen):
 
     def machwatt2(self, neueaugen):
         self.augen = neueaugen
+    
+    def itchi(self):
+        print("itchi wemser")
+        
+wuff = Hund()
+wuff.itchi()
+print(wuff.augen)
 
-flutschi = Hund()
-print(flutschi.augen)
 
-flutschi.machwatt(33)
-print(flutschi.beine)
-
-flutschi.machwatt2(3333)
-print(flutschi.augen)
-
-print(flutschi.klasse)
-
-flutschi.itchi()
+lubbi = Lebewesen()
+lubbi.itchi()
+print(lubbi.augen)
